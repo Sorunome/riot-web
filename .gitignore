@@ -5,8 +5,8 @@
 /key.pem
 /lib
 /node_modules
-/electron_app/node_modules
-/electron_app/dist
+/electron_app
+/matrix-js-sdk
 /packages/
 /webapp
 /.npmrc

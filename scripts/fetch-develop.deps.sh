@@ -37,7 +37,7 @@ function clone() {
     org=$1
     repo=$2
     branch=$3
-    git clone https://github.com/$org/$repo.git $repo --branch $branch \
+    git clone https://github.com/$org/$repo.git $repo --branch develop \
         "${GIT_CLONE_ARGS[@]}"
 }
 
@@ -75,7 +75,8 @@ echo -en 'travis_fold:end:matrix-js-sdk\r'
 echo -en 'travis_fold:start:matrix-react-sdk\r'
 echo 'Setting up matrix-react-sdk'
 
-dodep matrix-org matrix-react-sdk
+npm link matrix-react-sdk
+#dodep matrix-org matrix-react-sdk
 
 # replace the version of js-sdk that got pulled into react-sdk with a symlink
 # to our version. Make sure to do this *after* doing 'npm i' in react-sdk,
