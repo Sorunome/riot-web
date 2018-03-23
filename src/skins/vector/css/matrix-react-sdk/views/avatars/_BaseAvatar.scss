@@ -29,7 +29,11 @@ limitations under the License.
 }
 
 .mx_BaseAvatar_image {
-    border-radius: 40px;
+    border-radius: 4px;
     vertical-align: top;
     background-color: $avatar-bg-color;
+}
+
+.mx_BaseAvatar_image.mx_RoundAvatar {
+    border-radius: 40px;
 }
