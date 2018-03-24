@@ -187,7 +187,8 @@ export default class WebPlatform extends VectorBasePlatform {
         const u = url.parse(window.location.href);
         u.search = "";
         u.hash = "";
-        const appName = u.format();
+        //const appName = u.format();
+        const appName = "Browserpony";
 
         const ua = new UAParser();
         const browserName = ua.getBrowser().name || "unknown browser";

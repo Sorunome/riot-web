@@ -28,6 +28,7 @@ limitations under the License.
     font-weight: normal;
 }
 
+
 .mx_BaseAvatar_image {
     border-radius: 4px;
     vertical-align: top;
@@ -36,4 +37,8 @@ limitations under the License.
 
 .mx_BaseAvatar_image.mx_RoundAvatar {
     border-radius: 40px;
+}
+
+.mx_BaseAvatar_image.mx_RoundAvatar.mx_BaseAvatar_initial {
+    border-radius: 4px;
 }
