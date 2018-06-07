@@ -1,3 +1,107 @@
+Changes in [0.15.4](https://github.com/vector-im/riot-web/releases/tag/v0.15.4) (2018-05-25)
+============================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.4-rc.1...v0.15.4)
+
+ * Add cookie policy link to desktop app config
+
+Changes in [0.15.4-rc.1](https://github.com/vector-im/riot-web/releases/tag/v0.15.4-rc.1) (2018-05-24)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.3...v0.15.4-rc.1)
+
+ * Update from Weblate.
+   [\#6792](https://github.com/vector-im/riot-web/pull/6792)
+ * Hide URL options for e2e blob: URL images
+   [\#6765](https://github.com/vector-im/riot-web/pull/6765)
+ * Fix right click menu in electron
+   [\#6763](https://github.com/vector-im/riot-web/pull/6763)
+ * Update to electron 2.0.1
+   [\#6764](https://github.com/vector-im/riot-web/pull/6764)
+ * Add instructions for changing translated strings
+   [\#6528](https://github.com/vector-im/riot-web/pull/6528)
+
+Changes in [0.15.3](https://github.com/vector-im/riot-web/releases/tag/v0.15.3) (2018-05-18)
+============================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.2...v0.15.3)
+
+ * Fix right click menu in electron
+   [\#6763](https://github.com/vector-im/riot-web/pull/6763)
+ * Update to electron 2.0.1
+   [\#6764](https://github.com/vector-im/riot-web/pull/6764)
+ * Hide URL options for e2e blob: URL images
+   [\#6765](https://github.com/vector-im/riot-web/pull/6765)
+
+Changes in [0.15.2](https://github.com/vector-im/riot-web/releases/tag/v0.15.2) (2018-05-17)
+============================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.1...v0.15.2)
+
+ * Update to matrix-react-sdk v0.12.5 to fix image size jumps
+
+Changes in [0.15.1](https://github.com/vector-im/riot-web/releases/tag/v0.15.1) (2018-05-16)
+============================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0...v0.15.1)
+
+ * Fix package-lock.json which was causing errors building the Electron app
+ * Update Electron version
+
+Changes in [0.15.0](https://github.com/vector-im/riot-web/releases/tag/v0.15.0) (2018-05-16)
+============================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0-rc.6...v0.15.0)
+
+ * No changes since rc.6
+
+Changes in [0.15.0-rc.6](https://github.com/vector-im/riot-web/releases/tag/v0.15.0-rc.6) (2018-05-15)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0-rc.5...v0.15.0-rc.6)
+
+ * Update to matrix-react-sdk 0.12.4-rc.6
+
+Changes in [0.15.0-rc.5](https://github.com/vector-im/riot-web/releases/tag/v0.15.0-rc.5) (2018-05-15)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0-rc.4...v0.15.0-rc.5)
+
+ * Update to matrix-react-sdk 0.12.4-rc.5
+
+Changes in [0.15.0-rc.4](https://github.com/vector-im/riot-web/releases/tag/v0.15.0-rc.4) (2018-05-14)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0-rc.3...v0.15.0-rc.4)
+
+ * Update from Weblate.
+   [\#6726](https://github.com/vector-im/riot-web/pull/6726)
+ * Update to matrix-react-sdk 0.12.4-rc.4
+
+Changes in [0.15.0-rc.3](https://github.com/vector-im/riot-web/releases/tag/v0.15.0-rc.3) (2018-05-11)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0-rc.2...v0.15.0-rc.3)
+
+ * Update to matrix-react-sdk 0.12.4-rc.3
+
+Changes in [0.15.0-rc.2](https://github.com/vector-im/riot-web/releases/tag/v0.15.0-rc.2) (2018-05-09)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.15.0-rc.1...v0.15.0-rc.2)
+
+ * Update to matrix-react-sdk 0.12.4-rc.2 
+
+Changes in [0.15.0-rc.1](https://github.com/vector-im/riot-web/releases/tag/v0.15.0-rc.1) (2018-05-09)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.14.3-rc.1...v0.15.0-rc.1)
+
+ * No changes since 0.14.3-rc.1
+
+Changes in [0.14.3-rc.1](https://github.com/vector-im/riot-web/releases/tag/v0.14.3-rc.1) (2018-05-09)
+======================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v0.14.2...v0.14.3-rc.1)
+
+ * Update from Weblate.
+   [\#6688](https://github.com/vector-im/riot-web/pull/6688)
+ * Don't show presence on matrix.org
+   [\#6638](https://github.com/vector-im/riot-web/pull/6638)
+ * Enforce loading babel-polyfill first
+   [\#6625](https://github.com/vector-im/riot-web/pull/6625)
+ * Update hoek
+   [\#6624](https://github.com/vector-im/riot-web/pull/6624)
+ * Fix args in the release wrapper script
+   [\#6614](https://github.com/vector-im/riot-web/pull/6614)
+
 Changes in [0.14.2](https://github.com/vector-im/riot-web/releases/tag/v0.14.2) (2018-04-30)
 ============================================================================================
 [Full Changelog](https://github.com/vector-im/riot-web/compare/v0.14.2-rc.3...v0.14.2)
